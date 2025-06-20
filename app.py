@@ -7,7 +7,7 @@ import pathlib
 import requests
 
 # Download model from external URL (Google Drive, Dropbox, etc.)
-MODEL_URL = "https://your-model-link.com/best_model.h5"
+MODEL_URL = "https://drive.google.com/file/d/1C3SR061sGok7yYZCLhENCWAIR6cQ6hWG/view?usp=drive_link"
 MODEL_PATH = "models/best_model.h5"
 
 os.makedirs("models", exist_ok=True)
