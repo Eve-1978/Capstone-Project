@@ -12,7 +12,7 @@ import streamlit as st
 # Cached model loader
 @st.cache_resource
 def load_model_once():
-    return load_model('/content/drive/MyDrive/solar/models/best_model.h5')
+    return load_model("models/best_model.h5")
 
 model = load_model_once()
 
