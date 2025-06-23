@@ -1,8 +1,8 @@
-streamlit
-tensorflow
-numpy
-pillow
-opencv-python
-fpdf
-matplotlib
-pandas
+streamlit==1.35.0
+tensorflow==2.14.0
+numpy==1.23.5
+pillow==9.5.0
+opencv-python==4.7.0.72
+fpdf==1.7.2
+matplotlib==3.7.1
+pandas==1.5.3
