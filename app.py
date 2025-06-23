@@ -5,8 +5,8 @@ import random
 from PIL import Image
 from datetime import datetime
 from fpdf import FPDF
-from keras.models import load_model
-from keras.preprocessing.image import img_to_array
+from tensorflow.keras.models import load_model
+from tensorflow.keras.preprocessing.image import img_to_array
 import streamlit as st
 
 # Cached model loader
